@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 540" width="100%" height="100%" id="svg-wayang-shinta">
+  <defs>
+    <linearGradient id="shintaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faea98"/>
+      <stop offset="40%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8f6a1e"/>
+    </linearGradient>
+    <linearGradient id="shintaSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#42291b"/>
+      <stop offset="100%" stop-color="#221109"/>
+    </linearGradient>
+    <linearGradient id="shintaKemben" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6e1e19"/>
+      <stop offset="60%" stop-color="#45100d"/>
+      <stop offset="100%" stop-color="#280806"/>
+    </linearGradient>
+    <linearGradient id="shintaKain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4d2a19"/>
+      <stop offset="50%" stop-color="#2e150a"/>
+      <stop offset="100%" stop-color="#180904"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Control Rod / Cempurit -->
+  <path d="M140,280 L144,535 L140,535 Z" fill="url(#shintaGold)" opacity="0.7"/>
+
+  <!-- Shinta Main Group (Facing Left towards Rama) -->
+  <g id="shinta-puppet" transform="translate(20, 10)">
+    <!-- Torso and Royal Attire -->
+    <g id="shinta-torso">
+      <!-- Lower Body Skirt / Kain Jarik Batik Soga Lanyap -->
+      <path d="M 175,250 C 185,290 195,350 205,435 C 185,445 130,445 110,430 C 120,360 135,290 145,250 Z"
+            fill="url(#shintaKain)" stroke="url(#shintaGold)" stroke-width="1.8"/>
+      
+      <!-- Batik Kawung / Sido Asih Delicate Motifs on Jarik -->
+      <path d="M 148,275 L 180,265 M 140,315 L 188,295 M 132,360 L 195,335 M 122,408 L 202,375"
+            stroke="url(#shintaGold)" stroke-width="1.2" opacity="0.6" stroke-dasharray="3,3"/>
+      
+      <!-- Feet (Graceful Putren Tanjak) -->
+      <path d="M 140,435 C 130,435 118,445 118,455 C 128,460 155,458 158,435 Z" fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="1"/>
+      <path d="M 180,435 C 170,435 158,445 158,455 C 168,460 195,458 198,435 Z" fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="1"/>
+      <ellipse cx="138" cy="436" rx="8" ry="2.8" fill="url(#shintaGold)"/>
+      <ellipse cx="178" cy="436" rx="8" ry="2.8" fill="url(#shintaGold)"/>
+
+      <!-- Royal Golden Waistband / Pending & Slepe -->
+      <rect x="142" y="242" width="38" height="10" rx="3" fill="url(#shintaGold)" stroke="#4a3307" stroke-width="1"/>
+      <ellipse cx="161" cy="247" rx="5" ry="5" fill="#8b251a" stroke="url(#shintaGold)" stroke-width="1"/>
+
+      <!-- Graceful Flowing Sampur (Sash) -->
+      <path d="M 145,250 C 115,295 95,360 90,420 C 100,420 115,370 150,285 Z" fill="url(#shintaGold)" opacity="0.9" stroke="#80570b" stroke-width="1"/>
+      <path d="M 178,250 C 205,295 220,355 225,415 C 215,415 200,365 170,285 Z" fill="url(#shintaGold)" opacity="0.9" stroke="#80570b" stroke-width="1"/>
+
+      <!-- Royal Kemben / Strapless Corset (Deep Crimson Velvet with Gold Trim) -->
+      <path d="M 147,175 C 142,200 142,225 145,245 L 175,245 C 178,225 178,200 173,175 Z" fill="url(#shintaKemben)" stroke="url(#shintaGold)" stroke-width="1.2"/>
+      <!-- Gold Embroidery on Kemben -->
+      <path d="M 146,180 Q 160,195 174,180" stroke="url(#shintaGold)" stroke-width="1.8" fill="none"/>
+      <path d="M 147,205 Q 160,220 173,205" stroke="url(#shintaGold)" stroke-width="1.2" fill="none" stroke-dasharray="2,2"/>
+
+      <!-- Slender Princess Chest & Necklace -->
+      <path d="M 152,155 L 150,175 L 170,175 L 168,155 Z" fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="1"/>
+      <!-- Kalung Sungsang (3-tiered Princess Necklace) -->
+      <path d="M 151,165 Q 160,178 169,165" fill="none" stroke="url(#shintaGold)" stroke-width="2.5"/>
+      <circle cx="160" cy="176" r="3" fill="#9c261e" stroke="url(#shintaGold)" stroke-width="1"/>
+    </g>
+
+    <!-- Head and Headdress (Putren Gelung Ukel Sintren with Cunduk Mentul) -->
+    <g id="shinta-head">
+      <!-- Slender Princess Neck -->
+      <path d="M 156,138 L 154,160 L 164,160 L 162,138 Z" fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="1"/>
+
+      <!-- Princess Face Profile Facing Left towards Rama (Exquisite Liyepan Putren) -->
+      <path d="M 162,112
+               C 156,108 148,110 144,116
+               C 140,120 130,130 128,133
+               L 134,135
+               C 132,137 129,140 132,142
+               C 136,144 143,146 148,150
+               C 156,152 163,144 163,136 Z"
+            fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="1.3"/>
+
+      <!-- Delicate Eye & Arched Eyebrow -->
+      <path d="M 150,124 Q 141,121 134,125" stroke="url(#shintaGold)" stroke-width="1.2" fill="none"/>
+      <ellipse cx="143" cy="127" rx="3.5" ry="1.4" fill="#ffffff" stroke="#220d06" stroke-width="0.5"/>
+      <circle cx="142" cy="127" r="1" fill="#110502"/>
+
+      <!-- Gentle Smiling Lips -->
+      <path d="M 142,140 Q 137,141 134,138" stroke="url(#shintaGold)" stroke-width="1" fill="none"/>
+
+      <!-- Royal Ear Ornament (Sumping Surengpati Putren) & Cascading Melati -->
+      <path d="M 164,125 C 172,119 176,132 168,137 C 164,139 161,133 164,125 Z" fill="url(#shintaGold)" stroke="#4a3307" stroke-width="1"/>
+      <!-- Ronce Melati (Cascading Jasmine Pearls) -->
+      <g fill="#ffffff" stroke="#8f6a1e" stroke-width="0.5">
+        <circle cx="168" cy="140" r="2.5"/>
+        <circle cx="167" cy="145" r="2.3"/>
+        <circle cx="166" cy="150" r="2"/>
+        <circle cx="165" cy="155" r="1.8"/>
+        <circle cx="164" cy="160" r="1.5"/>
+      </g>
+
+      <!-- Gelung Ukel Sintren (Princess Hair Bun) -->
+      <path d="M 160,115
+               C 175,95 190,80 178,55
+               C 165,35 142,40 138,60
+               C 136,75 146,88 152,100
+               C 148,97 138,94 135,108
+               C 135,117 148,120 156,120 Z"
+            fill="url(#shintaGold)" stroke="#382405" stroke-width="1.5"/>
+
+      <!-- Cunduk Mentul (Seven Golden Floral Pins Springing on Top of Crown) -->
+      <g id="cunduk-mentul">
+        <path d="M 155,42 Q 155,20 155,10" stroke="url(#shintaGold)" stroke-width="1.5" fill="none"/>
+        <circle cx="155" cy="9" r="4.5" fill="url(#shintaGold)" stroke="#8b251a" stroke-width="1"/>
+
+        <path d="M 148,45 Q 140,26 138,16" stroke="url(#shintaGold)" stroke-width="1.2" fill="none"/>
+        <circle cx="138" cy="15" r="3.8" fill="url(#shintaGold)" stroke="#8b251a" stroke-width="0.8"/>
+
+        <path d="M 162,45 Q 170,26 172,16" stroke="url(#shintaGold)" stroke-width="1.2" fill="none"/>
+        <circle cx="172" cy="15" r="3.8" fill="url(#shintaGold)" stroke="#8b251a" stroke-width="0.8"/>
+      </g>
+
+      <!-- Headdress Perforations & Gems -->
+      <circle cx="158" cy="70" r="2.5" fill="#8b251a"/>
+      <circle cx="166" cy="80" r="2" fill="#220d06"/>
+      <circle cx="152" cy="85" r="2" fill="#220d06"/>
+    </g>
+
+    <!-- Articulated Arms for Shinta (Welcoming & Sembah Anjali Greeting) -->
+    <!-- Front Arm (Reaching forward towards Rama) -->
+    <g id="shinta-arm-front" class="wayang-arm-front">
+      <!-- Shoulder Joint -->
+      <circle cx="146" cy="180" r="3.5" fill="url(#shintaGold)"/>
+      <path d="M 146,180 Q 120,195 110,215" fill="none" stroke="url(#shintaSkin)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 146,180 Q 120,195 110,215" fill="none" stroke="url(#shintaGold)" stroke-width="1" stroke-linecap="round"/>
+      <!-- Kelat Bahu Putren -->
+      <ellipse cx="130" cy="195" rx="4.5" ry="7" fill="url(#shintaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(-35 130 195)"/>
+
+      <!-- Forearm & Hand in Graceful Ngithing / Sungkem Gesture -->
+      <circle cx="110" cy="215" r="3" fill="url(#shintaGold)"/>
+      <path d="M 110,215 Q 90,205 80,190" fill="none" stroke="url(#shintaSkin)" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 110,215 Q 90,205 80,190" fill="none" stroke="url(#shintaGold)" stroke-width="1" stroke-linecap="round"/>
+      <!-- Gelang Kana -->
+      <ellipse cx="92" cy="200" rx="3.5" ry="5.5" fill="url(#shintaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(40 92 200)"/>
+      <!-- Slender Elegant Fingers (Ngiting pose) -->
+      <path d="M 80,190 C 72,180 65,178 61,182 C 60,187 67,192 75,195 Z" fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="0.8"/>
+      <path d="M 78,190 C 70,187 65,188 63,192" stroke="url(#shintaGold)" stroke-width="0.6" fill="none"/>
+    </g>
+
+    <!-- Back Arm (Holding delicate sampur sash) -->
+    <g id="shinta-arm-back" class="wayang-arm-back">
+      <circle cx="176" cy="180" r="3.5" fill="url(#shintaGold)"/>
+      <path d="M 176,180 Q 192,205 188,230" fill="none" stroke="url(#shintaSkin)" stroke-width="4.5" stroke-linecap="round"/>
+      <ellipse cx="185" cy="202" rx="4" ry="6.5" fill="url(#shintaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(20 185 202)"/>
+      <circle cx="188" cy="230" r="3" fill="url(#shintaGold)"/>
+      <path d="M 188,230 Q 175,245 165,242" fill="none" stroke="url(#shintaSkin)" stroke-width="4" stroke-linecap="round"/>
+      <!-- Wrist & Hand holding sash -->
+      <ellipse cx="170" cy="240" rx="3" ry="4.5" fill="url(#shintaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(-30 170 240)"/>
+      <path d="M 165,242 C 160,244 155,242 152,238 C 155,235 160,237 165,242 Z" fill="url(#shintaSkin)" stroke="url(#shintaGold)" stroke-width="0.8"/>
+    </g>
+  </g>
+</svg>

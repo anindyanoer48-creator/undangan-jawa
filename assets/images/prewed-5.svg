@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_prewed-5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#381c12"/>
+      <stop offset="100%" stop-color="#200f08"/>
+    </linearGradient>
+    <radialGradient id="glow_prewed-5" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#faeb9d" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="450" fill="url(#bg_prewed-5)"/>
+
+  <!-- Subtle Kawung Pattern Texture -->
+  <g opacity="0.08" stroke="#faeb9d" stroke-width="1" fill="none">
+    <circle cx="100" cy="100" r="40"/><circle cx="300" cy="100" r="40"/><circle cx="500" cy="100" r="40"/>
+    <circle cx="200" cy="200" r="40"/><circle cx="400" cy="200" r="40"/>
+    <circle cx="100" cy="300" r="40"/><circle cx="300" cy="300" r="40"/><circle cx="500" cy="300" r="40"/>
+  </g>
+
+  <!-- Radial Golden Atmosphere Lighting -->
+  <circle cx="300" cy="210" r="240" fill="url(#glow_prewed-5)"/>
+
+  <!-- Architectural Background Elements -->
+  
+  <!-- Left Pillar -->
+  <rect x="50" y="20" width="35" height="390" fill="#1a0c06" stroke="#faeb9d" stroke-width="1" opacity="0.85"/>
+  <path d="M 40,20 L 95,20 L 85,45 L 50,45 Z" fill="#faeb9d"/>
+  <!-- Right Pillar -->
+  <rect x="515" y="20" width="35" height="390" fill="#1a0c06" stroke="#faeb9d" stroke-width="1" opacity="0.85"/>
+  <path d="M 505,20 L 560,20 L 550,45 L 515,45 Z" fill="#faeb9d"/>
+        
+  <path d="M 80,410 C 80,120 520,120 520,410" fill="none" stroke="#faeb9d" stroke-width="2" opacity="0.55" stroke-dasharray="6,4"/>
+
+  <!-- Couple Silhouette (Rama & Shinta Prewedding Romantic Pose) -->
+  <g transform="translate(190, 80)">
+    <!-- Groom (Raden Rama) with Blangkon / Royal Hair & Beskap -->
+    <g id="groom">
+      <!-- Body & Beskap Jangkep -->
+      <path d="M 85,150 C 70,180 65,220 60,310 L 125,310 C 120,220 115,180 100,150 Z" fill="#150904" stroke="#faeb9d" stroke-width="1.5"/>
+      <!-- Head & Blangkon Mataraman with Mondholan -->
+      <ellipse cx="92" cy="115" rx="16" ry="18" fill="#221109" stroke="#faeb9d" stroke-width="1"/>
+      <path d="M 76,115 C 76,98 108,98 108,115 Z" fill="#110603" stroke="#faeb9d" stroke-width="1.2"/>
+      <!-- Blangkon Mondholan (back knot) -->
+      <ellipse cx="74" cy="122" rx="6" ry="7" fill="#110603" stroke="#faeb9d" stroke-width="0.8"/>
+      <!-- Face Profile (Facing Bride) -->
+      <path d="M 98,110 Q 106,118 103,124 Q 97,126 95,130" fill="none" stroke="#faeb9d" stroke-width="1"/>
+      <!-- Golden Keris Warangka on the back -->
+      <line x1="70" y1="180" x2="50" y2="140" stroke="#faeb9d" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="48" cy="136" r="5" fill="#faeb9d"/>
+      <!-- Arm holding bride's hand gently -->
+      <path d="M 100,175 Q 125,200 135,195" fill="none" stroke="#221109" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 100,175 Q 125,200 135,195" fill="none" stroke="#faeb9d" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Bride (Dewi Shinta) in Royal Kebaya, Sanggal Paes, & Ronce Melati -->
+    <g id="bride">
+      <!-- Lower Body & Jarik Batik Soga -->
+      <path d="M 130,165 C 135,210 140,260 145,310 L 195,310 C 190,260 185,210 170,165 Z" fill="#1e0b06" stroke="#faeb9d" stroke-width="1.5"/>
+      <!-- Batik Gold Motifs -->
+      <path d="M 138,200 L 175,185 M 142,240 L 182,220 M 145,280 L 190,260" stroke="#faeb9d" stroke-width="1" opacity="0.6" stroke-dasharray="3,3"/>
+      <!-- Torso & Kebaya Encim / Beludru -->
+      <path d="M 132,150 C 135,175 138,200 140,225 L 168,225 C 168,200 165,175 160,150 Z" fill="#38120b" stroke="#faeb9d" stroke-width="1.2"/>
+      <!-- Head with Sanggul & Cunduk Mentul Pins -->
+      <ellipse cx="152" cy="118" rx="14" ry="16" fill="#221109" stroke="#faeb9d" stroke-width="1"/>
+      <!-- Sanggul Jawa Tekuk / Paes -->
+      <ellipse cx="163" cy="122" rx="10" ry="12" fill="#110603" stroke="#faeb9d" stroke-width="0.8"/>
+      <!-- Cunduk Mentul (Golden floral tiara pins) -->
+      <line x1="152" y1="102" x2="152" y2="90" stroke="#faeb9d" stroke-width="1.5"/>
+      <circle cx="152" cy="88" r="3.5" fill="#faeb9d"/>
+      <line x1="145" y1="105" x2="140" y2="94" stroke="#faeb9d" stroke-width="1.2"/>
+      <circle cx="139" cy="93" r="3" fill="#faeb9d"/>
+      <line x1="159" y1="105" x2="164" y2="94" stroke="#faeb9d" stroke-width="1.2"/>
+      <circle cx="165" cy="93" r="3" fill="#faeb9d"/>
+      <!-- Ronce Melati cascading down shoulder -->
+      <path d="M 160,132 Q 165,150 162,175" stroke="#fffdf5" stroke-width="2.5" stroke-dasharray="3,3" fill="none"/>
+      <!-- Gentle Gaze towards Groom -->
+      <path d="M 144,115 Q 138,120 142,126" fill="none" stroke="#faeb9d" stroke-width="1"/>
+      <!-- Hand gently joined with Rama -->
+      <circle cx="136" cy="196" r="4" fill="#faeb9d"/>
+    </g>
+  </g>
+
+  <!-- Ground Pedestal / Floor Batik Border -->
+  <rect x="0" y="390" width="600" height="60" fill="#130703" stroke="#faeb9d" stroke-width="1"/>
+  <line x1="0" y1="395" x2="600" y2="395" stroke="#faeb9d" stroke-width="0.8" stroke-dasharray="4,3"/>
+
+  <!-- Ornate Golden Frame Borders -->
+  <rect x="12" y="12" width="576" height="426" fill="none" stroke="#faeb9d" stroke-width="1.5" rx="8"/>
+  <rect x="18" y="18" width="564" height="414" fill="none" stroke="#faeb9d" stroke-width="0.8" opacity="0.5" rx="6" stroke-dasharray="6,3"/>
+
+  <!-- Corner Rosettes -->
+  <circle cx="24" cy="24" r="4" fill="#faeb9d"/>
+  <circle cx="576" cy="24" r="4" fill="#faeb9d"/>
+  <circle cx="24" cy="426" r="4" fill="#faeb9d"/>
+  <circle cx="576" cy="426" r="4" fill="#faeb9d"/>
+
+  <!-- Caption Plaque at Bottom Center -->
+  <rect x="160" y="398" width="280" height="34" rx="17" fill="rgba(26, 12, 7, 0.9)" stroke="#faeb9d" stroke-width="1"/>
+  <text x="300" y="420" font-family="serif" font-size="14" font-weight="bold" fill="#faea98" text-anchor="middle" letter-spacing="1">Lelampahan Taman Sari</text>
+</svg>

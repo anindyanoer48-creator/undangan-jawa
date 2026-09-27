@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="kg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8a946" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4a2c1f" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+  <rect width="120" height="120" fill="none"/>
+  <!-- Kawung Ellipses pattern -->
+  <g fill="none" stroke="#8f6820" stroke-width="1" opacity="0.28">
+    <!-- Center cluster -->
+    <ellipse cx="60" cy="60" rx="26" ry="12" transform="rotate(45 60 60)" fill="url(#kg)"/>
+    <ellipse cx="60" cy="60" rx="26" ry="12" transform="rotate(-45 60 60)" fill="url(#kg)"/>
+    <circle cx="60" cy="60" r="5" fill="#c9993b" fill-opacity="0.3" stroke="#8f6820"/>
+    <circle cx="60" cy="60" r="2" fill="#4a2c1f" fill-opacity="0.5"/>
+    <circle cx="48" cy="48" r="2" fill="#c9993b" fill-opacity="0.35"/>
+    <circle cx="72" cy="72" r="2" fill="#c9993b" fill-opacity="0.35"/>
+    <circle cx="72" cy="48" r="2" fill="#c9993b" fill-opacity="0.35"/>
+    <circle cx="48" cy="72" r="2" fill="#c9993b" fill-opacity="0.35"/>
+
+    <!-- Corners (tile seamlessly) -->
+    <!-- Top-Left (0,0) -->
+    <ellipse cx="0" cy="0" rx="26" ry="12" transform="rotate(45 0 0)" fill="url(#kg)"/>
+    <ellipse cx="0" cy="0" rx="26" ry="12" transform="rotate(-45 0 0)" fill="url(#kg)"/>
+    <circle cx="0" cy="0" r="5" fill="#c9993b" fill-opacity="0.3" stroke="#8f6820"/>
+    
+    <!-- Top-Right (120,0) -->
+    <ellipse cx="120" cy="0" rx="26" ry="12" transform="rotate(45 120 0)" fill="url(#kg)"/>
+    <ellipse cx="120" cy="0" rx="26" ry="12" transform="rotate(-45 120 0)" fill="url(#kg)"/>
+    <circle cx="120" cy="0" r="5" fill="#c9993b" fill-opacity="0.3" stroke="#8f6820"/>
+
+    <!-- Bottom-Left (0,120) -->
+    <ellipse cx="0" cy="120" rx="26" ry="12" transform="rotate(45 0 120)" fill="url(#kg)"/>
+    <ellipse cx="0" cy="120" rx="26" ry="12" transform="rotate(-45 0 120)" fill="url(#kg)"/>
+    <circle cx="0" cy="120" r="5" fill="#c9993b" fill-opacity="0.3" stroke="#8f6820"/>
+
+    <!-- Bottom-Right (120,120) -->
+    <ellipse cx="120" cy="120" rx="26" ry="12" transform="rotate(45 120 120)" fill="url(#kg)"/>
+    <ellipse cx="120" cy="120" rx="26" ry="12" transform="rotate(-45 120 120)" fill="url(#kg)"/>
+    <circle cx="120" cy="120" r="5" fill="#c9993b" fill-opacity="0.3" stroke="#8f6820"/>
+
+    <!-- Border diamonds -->
+    <polygon points="60,0 66,6 60,12 54,6" fill="#c9993b" fill-opacity="0.2" stroke="#8f6820"/>
+    <polygon points="60,120 66,114 60,108 54,114" fill="#c9993b" fill-opacity="0.2" stroke="#8f6820"/>
+    <polygon points="0,60 6,66 12,60 6,54" fill="#c9993b" fill-opacity="0.2" stroke="#8f6820"/>
+    <polygon points="120,60 114,66 108,60 114,54" fill="#c9993b" fill-opacity="0.2" stroke="#8f6820"/>
+  </g>
+</svg>

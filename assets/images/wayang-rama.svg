@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 540" width="100%" height="100%" id="svg-wayang-rama">
+  <defs>
+    <linearGradient id="ramaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faea98"/>
+      <stop offset="40%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8f6a1e"/>
+    </linearGradient>
+    <linearGradient id="ramaSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a2216"/>
+      <stop offset="100%" stop-color="#1f0e08"/>
+    </linearGradient>
+    <linearGradient id="ramaKain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4d2918"/>
+      <stop offset="50%" stop-color="#2e150a"/>
+      <stop offset="100%" stop-color="#180904"/>
+    </linearGradient>
+    <filter id="glowRama" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Wayang Control Rod / Cempurit -->
+  <path d="M178,280 L182,535 L178,535 Z" fill="url(#ramaGold)" opacity="0.7"/>
+
+  <!-- Main Body Group -->
+  <g id="rama-puppet" transform="translate(20, 10)">
+    <!-- Divine Bow Gandewa on Rama's back -->
+    <g id="rama-gandewa">
+      <path d="M 90,80 Q 40,200 95,350 Q 85,200 100,90 Z" fill="none" stroke="url(#ramaGold)" stroke-width="4"/>
+      <!-- Bowstring -->
+      <line x1="90" y1="80" x2="95" y2="350" stroke="#ffe89c" stroke-width="1" stroke-dasharray="4,2"/>
+      <!-- Bow Ornaments (Dragon/Naga head at tips) -->
+      <circle cx="90" cy="80" r="5" fill="url(#ramaGold)"/>
+      <circle cx="95" cy="350" r="5" fill="url(#ramaGold)"/>
+    </g>
+
+    <!-- Torso and Royal Attire -->
+    <g id="rama-torso">
+      <!-- Lower Body / Dodot Kampuh Batik -->
+      <path d="M 140,240 C 130,280 110,340 100,430 C 120,440 180,440 200,420 C 195,350 185,280 175,240 Z"
+            fill="url(#ramaKain)" stroke="url(#ramaGold)" stroke-width="1.8"/>
+      
+      <!-- Batik Parang Patterns on Kain -->
+      <path d="M 125,270 L 155,250 M 118,310 L 165,280 M 110,360 L 175,315 M 105,405 L 185,350"
+            stroke="url(#ramaGold)" stroke-width="1.2" opacity="0.6" stroke-dasharray="3,3"/>
+      
+      <!-- Celana Katang Soga (Undergarments) -->
+      <path d="M 130,420 L 130,470 L 145,470 L 150,425 Z" fill="#220d06" stroke="url(#ramaGold)" stroke-width="1"/>
+      <path d="M 170,415 L 175,470 L 190,470 L 185,415 Z" fill="#220d06" stroke="url(#ramaGold)" stroke-width="1"/>
+
+      <!-- Bare Feet (Jengkeng/Tanjak) -->
+      <path d="M 125,470 C 115,470 105,480 105,488 C 115,492 145,490 148,470 Z" fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="1"/>
+      <path d="M 175,470 C 185,470 200,480 200,488 C 190,492 165,490 165,470 Z" fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="1"/>
+      <!-- Ankle Bangles / Binggel -->
+      <ellipse cx="133" cy="470" rx="9" ry="3" fill="url(#ramaGold)"/>
+      <ellipse cx="180" cy="470" rx="9" ry="3" fill="url(#ramaGold)"/>
+
+      <!-- Golden Waistband / Pending Kencana & Uncal Kencana -->
+      <rect x="135" y="235" width="45" height="12" rx="3" fill="url(#ramaGold)" stroke="#4a3307" stroke-width="1"/>
+      <path d="M 152,247 L 152,340 C 152,350 162,350 162,340 L 162,247 Z" fill="url(#ramaGold)" stroke="#4a3307" stroke-width="0.8"/>
+
+      <!-- Flowing Sampur / Yellow Silk Sash -->
+      <path d="M 138,247 C 110,290 90,360 85,420 C 95,420 105,370 142,280 Z" fill="url(#ramaGold)" opacity="0.85" stroke="#80570b" stroke-width="1"/>
+      <path d="M 178,247 C 205,290 225,350 230,410 C 220,410 205,360 172,280 Z" fill="url(#ramaGold)" opacity="0.85" stroke="#80570b" stroke-width="1"/>
+
+      <!-- Chest / Dada Gagah Alusan -->
+      <path d="M 142,165 C 135,190 135,220 140,240 L 175,240 C 180,220 180,190 173,165 Z" fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="1.2"/>
+      
+      <!-- Kalung Ulur-ulur & Bulan Sabit (Royal Necklace) -->
+      <path d="M 142,168 Q 158,198 173,168" fill="none" stroke="url(#ramaGold)" stroke-width="3"/>
+      <circle cx="157.5" cy="195" r="4" fill="url(#ramaGold)"/>
+      <path d="M 147,175 Q 158,215 168,175" fill="none" stroke="url(#ramaGold)" stroke-width="1.5" stroke-dasharray="2,2"/>
+    </g>
+
+    <!-- Head and Crown (Makutha Batara Guru / Supit Urang) -->
+    <g id="rama-head">
+      <!-- Slender Neck -->
+      <path d="M 152,145 L 152,168 L 163,168 L 163,145 Z" fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="1"/>
+      
+      <!-- Noble Refined Face Profile (Liyepan Alus) -->
+      <!-- Profile facing right towards Shinta -->
+      <path d="M 153,115
+               C 158,110 167,112 172,118
+               C 176,122 186,132 188,135
+               L 182,137
+               C 184,139 187,142 184,144
+               C 180,146 173,148 168,152
+               C 160,154 153,146 153,138 Z"
+            fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="1.3"/>
+      
+      <!-- Eye (Alusan Liyepan) & Eyebrow -->
+      <path d="M 166,126 Q 175,123 182,127" stroke="url(#ramaGold)" stroke-width="1.2" fill="none"/>
+      <ellipse cx="173" cy="129" rx="3.5" ry="1.5" fill="#ffffff" stroke="#220d06" stroke-width="0.5"/>
+      <circle cx="174" cy="129" r="1" fill="#110502"/>
+
+      <!-- Smile of Nobility -->
+      <path d="M 174,142 Q 179,143 182,140" stroke="url(#ramaGold)" stroke-width="1" fill="none"/>
+
+      <!-- Sumping (Royal Ear Ornament) & Ronce Melati -->
+      <path d="M 150,128 C 142,122 138,135 146,140 C 150,142 153,136 150,128 Z" fill="url(#ramaGold)" stroke="#4a3307" stroke-width="1"/>
+      <circle cx="146" cy="143" r="2" fill="#ffffff"/>
+      <circle cx="147" cy="147" r="1.8" fill="#ffffff"/>
+      <circle cx="148" cy="151" r="1.5" fill="#ffffff"/>
+
+      <!-- Gelung Supit Urang & Royal Crown (Makutha) -->
+      <path d="M 148,118
+               C 138,95 125,75 140,50
+               C 152,30 175,35 178,55
+               C 180,70 170,85 163,98
+               C 167,95 178,92 180,105
+               C 180,115 168,118 158,118 Z"
+            fill="url(#ramaGold)" stroke="#382405" stroke-width="1.5"/>
+
+      <!-- Makutha Filigree Perforations (Tatah Sungging Emas) -->
+      <g fill="#2b1807" opacity="0.7">
+        <circle cx="152" cy="55" r="2.5"/>
+        <circle cx="158" cy="65" r="2"/>
+        <circle cx="162" cy="78" r="2.2"/>
+        <circle cx="148" cy="80" r="2"/>
+        <circle cx="154" cy="92" r="2.5"/>
+        <circle cx="168" cy="102" r="2"/>
+      </g>
+      <!-- Topmost Crown Jewel (Intan Makutha) -->
+      <polygon points="158,25 163,35 158,40 153,35" fill="#ffffff" stroke="url(#ramaGold)" stroke-width="1"/>
+    </g>
+
+    <!-- Articulated Arms (Can animate in CSS) -->
+    <!-- Left Arm (Reaching forward in royal greeting) -->
+    <g id="rama-arm-front" class="wayang-arm-front">
+      <!-- Shoulder Joint -->
+      <circle cx="172" cy="175" r="4" fill="url(#ramaGold)"/>
+      <path d="M 172,175 Q 195,190 205,210" fill="none" stroke="url(#ramaSkin)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 172,175 Q 195,190 205,210" fill="none" stroke="url(#ramaGold)" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Kelat Bahu (Golden Armlet) -->
+      <ellipse cx="188" cy="190" rx="5" ry="8" fill="url(#ramaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(35 188 190)"/>
+
+      <!-- Forearm & Hand in Sembah/Ngiting -->
+      <!-- Elbow Joint -->
+      <circle cx="205" cy="210" r="3.5" fill="url(#ramaGold)"/>
+      <path d="M 205,210 Q 225,200 235,185" fill="none" stroke="url(#ramaSkin)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 205,210 Q 225,200 235,185" fill="none" stroke="url(#ramaGold)" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Gelang Kana (Golden Wrist Bracelet) -->
+      <ellipse cx="225" cy="195" rx="4" ry="6" fill="url(#ramaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(-40 225 195)"/>
+      <!-- Elegant Fingers (Ngiting pose) -->
+      <path d="M 235,185 C 242,175 250,172 254,175 C 255,180 248,185 240,190 Z" fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="0.8"/>
+      <path d="M 237,185 C 245,182 250,183 252,187" stroke="url(#ramaGold)" stroke-width="0.6" fill="none"/>
+    </g>
+
+    <!-- Right Arm (Holding Gandewa bow / poise) -->
+    <g id="rama-arm-back" class="wayang-arm-back">
+      <circle cx="142" cy="175" r="3.5" fill="url(#ramaGold)"/>
+      <path d="M 142,175 Q 125,205 130,230" fill="none" stroke="url(#ramaSkin)" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="132" cy="200" rx="4" ry="7" fill="url(#ramaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(-20 132 200)"/>
+      <circle cx="130" cy="230" r="3" fill="url(#ramaGold)"/>
+      <path d="M 130,230 Q 145,245 155,240" fill="none" stroke="url(#ramaSkin)" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- Hand holding sash/bow -->
+      <ellipse cx="152" cy="238" rx="3.5" ry="5" fill="url(#ramaGold)" stroke="#3d2806" stroke-width="0.8" transform="rotate(30 152 238)"/>
+      <path d="M 155,240 C 160,242 165,240 168,235 C 165,232 160,235 155,240 Z" fill="url(#ramaSkin)" stroke="url(#ramaGold)" stroke-width="0.8"/>
+    </g>
+  </g>
+</svg>
